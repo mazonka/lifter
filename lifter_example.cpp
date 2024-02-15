@@ -1,22 +1,20 @@
 
-#include "ccrun.h"
+// Example to use lifter
+
+#include <iostream>
 
 #include "lifter.h"
 
 
-
-
+using std::cout;
 
 void testops()
 {
     using lint = lifter<lifter<lifter<lifter<uint64_t>>>>;
     cout << "sizeof in bits = " << sizeof(lint) * 8 << '\n';
-    //using lint = lifter<uint64_t>;
+
     // Arithmetic operators
     lint a { 10 }, b { 5 };
-
-//return;
-
     cout << "Arithmetic Operators:" << '\t';
     cout << "a + b = " << a + b << '\t';
     cout << "a - b = " << a - b << '\n';
@@ -69,11 +67,12 @@ void testops()
     c %= b;
     cout << "c %= 3 is " << c << '\n';
 
+    c %= c;
     cout << str(--c, 16) << '\n';
 }
 
 
-void cmain()
+int main()
 {
     str(lifter<uint32_t> {50}, 10);
     lifter<uint64_t> c {1};
