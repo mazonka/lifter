@@ -10,7 +10,7 @@
 void testops()
 {
     using lint = lifter<lifter<lifter<lifter<uint64_t>>>>;
-    cout << "sizeof8 = " << sizeof(lint) * 8 << '\n';
+    cout << "sizeof in bits = " << sizeof(lint) * 8 << '\n';
     //using lint = lifter<uint64_t>;
     // Arithmetic operators
     lint a { 10 }, b { 5 };
@@ -57,17 +57,17 @@ void testops()
 
     // Assignment operators
     lint c { 15 };
-    cout << "Assignment Operators:" << '\t';
+    cout << "Assignment Operators: (c=15)" << '\t';
     c += c;
-    cout << "c += 5 is " << c << '\t';
+    cout << "c += c is " << c << '\t';
     c -= c - b;
     cout << "c -= 3 is " << c << '\n';
     c *= c;
-    cout << "c *= 2 is " << c << '\t';
+    cout << "c *= c is " << c << '\t';
     c /= c;
-    cout << "c /= 4 is " << c << '\t';
-    c %= c;
-    cout << "c %= 2 is " << c << '\n';
+    cout << "c /= c is " << c << '\t';
+    c %= b;
+    cout << "c %= 3 is " << c << '\n';
 
     cout << str(--c, 16) << '\n';
 }
