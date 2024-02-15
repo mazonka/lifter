@@ -1,0 +1,73 @@
+
+speed test Lifter
+size:  [2000]
+
+starting speed test, Lifter
+lifter MOD time = 24.234ms
+
+speed test GMP
+size:  [2000]
+
+starting speed test, GMPbig
+GMPbig MOD time = 0.20921ms
+
+speed test Lifter
+size:  [2000]
+
+starting speed test, Lifter
+lifter MOD time = 23.754ms
+
+speed test GMP
+size:  [2000]
+
+starting speed test, GMPbig
+GMPbig MOD time = 0.20783ms
+
+speed test Lifter
+size:  [1000]
+
+starting speed test, Lifter
+lifter MOD time = 2.992ms
+
+speed test GMP
+size:  [1000]
+
+starting speed test, GMPbig
+GMPbig MOD time = 0.0574ms
+
+speed test Lifter
+size:  [500]
+
+starting speed test, Lifter
+lifter MOD time = 0.4675ms
+
+speed test GMP
+size:  [500]
+
+starting speed test, GMPbig
+GMPbig MOD time = 0.01785ms
+
+speed test Lifter
+size:  [250]
+
+starting speed test, Lifter
+lifter MOD time = 0.08375ms
+
+speed test GMP
+size:  [250]
+
+starting speed test, GMPbig
+GMPbig MOD time = 0.00691875ms
+
+speed test Lifter
+size:  [127]
+
+starting speed test, Lifter
+lifter MOD time = 0.0144688ms
+
+speed test GMP
+x and size: 114466729942506034137623602969723071602 [127]
+size:  [127]
+
+starting speed test, GMPbig
+GMPbig MOD time = 0.0028ms
